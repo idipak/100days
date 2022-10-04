@@ -20,6 +20,7 @@
 		43215C8D28E8149C001A7DE8 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43215C8C28E8149C001A7DE8 /* Bundle-Decodable.swift */; };
 		43215C8F28E81671001A7DE8 /* MoonshotHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43215C8E28E81671001A7DE8 /* MoonshotHome.swift */; };
 		43215C9128E81925001A7DE8 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43215C9028E81925001A7DE8 /* Mission.swift */; };
+		438D996528EAF3FA00BCEB32 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D996428EAF3FA00BCEB32 /* Color-Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		43215C8C28E8149C001A7DE8 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		43215C8E28E81671001A7DE8 /* MoonshotHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotHome.swift; sourceTree = "<group>"; };
 		43215C9028E81925001A7DE8 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		438D996428EAF3FA00BCEB32 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				43215C8C28E8149C001A7DE8 /* Bundle-Decodable.swift */,
 				43215C8E28E81671001A7DE8 /* MoonshotHome.swift */,
 				43215C9028E81925001A7DE8 /* Mission.swift */,
+				438D996428EAF3FA00BCEB32 /* Color-Theme.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			files = (
 				43215C9128E81925001A7DE8 /* Mission.swift in Sources */,
 				43215C8B28E813D6001A7DE8 /* Astronaut.swift in Sources */,
+				438D996528EAF3FA00BCEB32 /* Color-Theme.swift in Sources */,
 				43215C8F28E81671001A7DE8 /* MoonshotHome.swift in Sources */,
 				43215C5E28E810FA001A7DE8 /* ContentView.swift in Sources */,
 				43215C5C28E810FA001A7DE8 /* HundredDaysApp.swift in Sources */,
