@@ -24,6 +24,8 @@
 		438B762728EC1B3F00A83CA5 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438B762628EC1B3F00A83CA5 /* MissionView.swift */; };
 		438B762928EC2BEB00A83CA5 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438B762828EC2BEB00A83CA5 /* AstronautView.swift */; };
 		438D996528EAF3FA00BCEB32 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D996428EAF3FA00BCEB32 /* Color-Theme.swift */; };
+		43A5DC5528EFEE3000C0A1BB /* CreativeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A5DC5428EFEE3000C0A1BB /* CreativeBorder.swift */; };
+		43A5DC5728EFF58F00C0A1BB /* ColorCyclicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A5DC5628EFF58F00C0A1BB /* ColorCyclicView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		438B762628EC1B3F00A83CA5 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		438B762828EC2BEB00A83CA5 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		438D996428EAF3FA00BCEB32 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		43A5DC5428EFEE3000C0A1BB /* CreativeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBorder.swift; sourceTree = "<group>"; };
+		43A5DC5628EFF58F00C0A1BB /* ColorCyclicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclicView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,6 @@
 		43215C4F28E810FA001A7DE8 = {
 			isa = PBXGroup;
 			children = (
-				4385775528EEA4D900F52BD0 /* Misc */,
-				43215C8528E81198001A7DE8 /* Moonshot */,
 				43215C5A28E810FA001A7DE8 /* HundredDays */,
 				43215C6B28E810FC001A7DE8 /* HundredDaysTests */,
 				43215C7528E810FC001A7DE8 /* HundredDaysUITests */,
@@ -116,6 +118,8 @@
 		43215C5A28E810FA001A7DE8 /* HundredDays */ = {
 			isa = PBXGroup;
 			children = (
+				43215C8528E81198001A7DE8 /* Moonshot */,
+				4385775528EEA4D900F52BD0 /* Misc */,
 				43215C5B28E810FA001A7DE8 /* HundredDaysApp.swift */,
 				43215C5D28E810FA001A7DE8 /* ContentView.swift */,
 				43215C5F28E810FC001A7DE8 /* Assets.xcassets */,
@@ -169,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				4385775628EEA4ED00F52BD0 /* Pushpa.swift */,
+				43A5DC5428EFEE3000C0A1BB /* CreativeBorder.swift */,
+				43A5DC5628EFF58F00C0A1BB /* ColorCyclicView.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -310,7 +316,9 @@
 				438B762728EC1B3F00A83CA5 /* MissionView.swift in Sources */,
 				43215C8B28E813D6001A7DE8 /* Astronaut.swift in Sources */,
 				438D996528EAF3FA00BCEB32 /* Color-Theme.swift in Sources */,
+				43A5DC5728EFF58F00C0A1BB /* ColorCyclicView.swift in Sources */,
 				43215C8F28E81671001A7DE8 /* MoonshotHome.swift in Sources */,
+				43A5DC5528EFEE3000C0A1BB /* CreativeBorder.swift in Sources */,
 				43215C5E28E810FA001A7DE8 /* ContentView.swift in Sources */,
 				43215C5C28E810FA001A7DE8 /* HundredDaysApp.swift in Sources */,
 				4385775728EEA4ED00F52BD0 /* Pushpa.swift in Sources */,
