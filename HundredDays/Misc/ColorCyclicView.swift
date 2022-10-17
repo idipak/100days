@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ColorCyclicView: View {
     var amount = 0.0
-    var steps = 100
+    var steps: Int = 100
     
     var body: some View {
         ZStack{
