@@ -11,7 +11,7 @@ import SwiftUI
 struct HundredDaysApp: App {
     var body: some Scene {
         WindowGroup {
-            MoonshotHome()
+            ContentView()
         }
     }
 }

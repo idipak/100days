@@ -89,4 +89,8 @@ class Order: ObservableObject, Codable{
         
     }
     
+    init(){
+        
+    }
+    
 }
