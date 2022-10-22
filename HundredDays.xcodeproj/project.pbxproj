@@ -37,6 +37,7 @@
 		43A4E23328FE95830090C441 /* BookwormHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4E23228FE95830090C441 /* BookwormHome.swift */; };
 		43A5DC5528EFEE3000C0A1BB /* CreativeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A5DC5428EFEE3000C0A1BB /* CreativeBorder.swift */; };
 		43A5DC5728EFF58F00C0A1BB /* ColorCyclicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A5DC5628EFF58F00C0A1BB /* ColorCyclicView.swift */; };
+		43F0DAC9290410BB00E048C0 /* Instafilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F0DAC8290410BB00E048C0 /* Instafilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		43A4E23228FE95830090C441 /* BookwormHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormHome.swift; sourceTree = "<group>"; };
 		43A5DC5428EFEE3000C0A1BB /* CreativeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBorder.swift; sourceTree = "<group>"; };
 		43A5DC5628EFF58F00C0A1BB /* ColorCyclicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclicView.swift; sourceTree = "<group>"; };
+		43F0DAC8290410BB00E048C0 /* Instafilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instafilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		43215C5A28E810FA001A7DE8 /* HundredDays */ = {
 			isa = PBXGroup;
 			children = (
+				43F0DAC7290410A200E048C0 /* Instafilter */,
 				43A4E22628FE7EAB0090C441 /* Bookworm */,
 				4387293928FD4053001DB8C1 /* Cupcake */,
 				43215C8528E81198001A7DE8 /* Moonshot */,
@@ -226,6 +229,14 @@
 				43A4E23228FE95830090C441 /* BookwormHome.swift */,
 			);
 			path = Bookworm;
+			sourceTree = "<group>";
+		};
+		43F0DAC7290410A200E048C0 /* Instafilter */ = {
+			isa = PBXGroup;
+			children = (
+				43F0DAC8290410BB00E048C0 /* Instafilter.swift */,
+			);
+			path = Instafilter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +380,7 @@
 				438B762728EC1B3F00A83CA5 /* MissionView.swift in Sources */,
 				4387293B28FD408C001DB8C1 /* Cupcake.swift in Sources */,
 				43A4E22D28FE84BD0090C441 /* AddBookView.swift in Sources */,
+				43F0DAC9290410BB00E048C0 /* Instafilter.swift in Sources */,
 				43215C8B28E813D6001A7DE8 /* Astronaut.swift in Sources */,
 				438D996528EAF3FA00BCEB32 /* Color-Theme.swift in Sources */,
 				43A4E22B28FE80B00090C441 /* Bookworm.xcdatamodeld in Sources */,
