@@ -22,7 +22,7 @@ struct Instafilter: View {
     }
     
     func loadImage(){
-        guard let inputeImage = UIImage(named: "Example") else { return }
+        guard let inputeImage = UIImage(named: "aldrin") else { return }
         let beginImage = CIImage(image: inputeImage)
         
         let context  = CIContext()
@@ -32,7 +32,10 @@ struct Instafilter: View {
         
         guard let outputImage = currentFilter.outputImage else {return}
         
-        if let cgimg = context.createCGImage(outputImage, from: outputImage.extent)
+        if let cgimg = context.createCGImage(outputImage, from: outputImage.extent){
+            let uiImage = UIImage(cgImage: cgimg)
+            image = Image(uiImage: uiImage)
+        }
     }
 }
 

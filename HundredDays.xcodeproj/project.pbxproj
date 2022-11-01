@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431817AA2910FC980077D6BB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431817A92910FC980077D6BB /* ImagePicker.swift */; };
+		431817AC2910FE040077D6BB /* InstaHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431817AB2910FE040077D6BB /* InstaHome.swift */; };
+		431817AE291117000077D6BB /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431817AD291117000077D6BB /* ImageSaver.swift */; };
 		43215C5C28E810FA001A7DE8 /* HundredDaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43215C5B28E810FA001A7DE8 /* HundredDaysApp.swift */; };
 		43215C5E28E810FA001A7DE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43215C5D28E810FA001A7DE8 /* ContentView.swift */; };
 		43215C6028E810FC001A7DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43215C5F28E810FC001A7DE8 /* Assets.xcassets */; };
@@ -58,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		431817A92910FC980077D6BB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		431817AB2910FE040077D6BB /* InstaHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaHome.swift; sourceTree = "<group>"; };
+		431817AD291117000077D6BB /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		43215C5828E810FA001A7DE8 /* HundredDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HundredDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43215C5B28E810FA001A7DE8 /* HundredDaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredDaysApp.swift; sourceTree = "<group>"; };
 		43215C5D28E810FA001A7DE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -235,6 +241,9 @@
 			isa = PBXGroup;
 			children = (
 				43F0DAC8290410BB00E048C0 /* Instafilter.swift */,
+				431817A92910FC980077D6BB /* ImagePicker.swift */,
+				431817AB2910FE040077D6BB /* InstaHome.swift */,
+				431817AD291117000077D6BB /* ImageSaver.swift */,
 			);
 			path = Instafilter;
 			sourceTree = "<group>";
@@ -373,6 +382,7 @@
 			files = (
 				43215C9128E81925001A7DE8 /* Mission.swift in Sources */,
 				438B762928EC2BEB00A83CA5 /* AstronautView.swift in Sources */,
+				431817AA2910FC980077D6BB /* ImagePicker.swift in Sources */,
 				4387293D28FD40D0001DB8C1 /* Order.swift in Sources */,
 				4387293828FD2B0B001DB8C1 /* TuneApi.swift in Sources */,
 				43A4E22828FE7EC90090C441 /* Bookworm.swift in Sources */,
@@ -383,9 +393,11 @@
 				43F0DAC9290410BB00E048C0 /* Instafilter.swift in Sources */,
 				43215C8B28E813D6001A7DE8 /* Astronaut.swift in Sources */,
 				438D996528EAF3FA00BCEB32 /* Color-Theme.swift in Sources */,
+				431817AE291117000077D6BB /* ImageSaver.swift in Sources */,
 				43A4E22B28FE80B00090C441 /* Bookworm.xcdatamodeld in Sources */,
 				4387294128FD4A71001DB8C1 /* CheckoutView.swift in Sources */,
 				43A5DC5728EFF58F00C0A1BB /* ColorCyclicView.swift in Sources */,
+				431817AC2910FE040077D6BB /* InstaHome.swift in Sources */,
 				43215C8F28E81671001A7DE8 /* MoonshotHome.swift in Sources */,
 				43A5DC5528EFEE3000C0A1BB /* CreativeBorder.swift in Sources */,
 				43399B4E28F14BE7006EB585 /* BlendingEffect.swift in Sources */,
@@ -555,6 +567,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HundredDays/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +596,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HundredDays/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
