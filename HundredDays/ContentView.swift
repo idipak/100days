@@ -28,6 +28,12 @@ struct ContentView: View {
                 } label: {
                     Text("Bookworm")
                 }
+                
+                NavigationLink{
+                    InstaContentView()
+                } label: {
+                    Text("InstaFilter")
+                }
 
 
 
