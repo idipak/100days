@@ -34,6 +34,12 @@ struct ContentView: View {
                 } label: {
                     Text("InstaFilter")
                 }
+                
+                NavigationLink{
+                    Authentication()
+                } label: {
+                    Text("Bucket List")
+                }
 
 
 

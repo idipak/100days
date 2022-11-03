@@ -41,6 +41,8 @@
 		43A4E23328FE95830090C441 /* BookwormHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4E23228FE95830090C441 /* BookwormHome.swift */; };
 		43A5DC5528EFEE3000C0A1BB /* CreativeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A5DC5428EFEE3000C0A1BB /* CreativeBorder.swift */; };
 		43A5DC5728EFF58F00C0A1BB /* ColorCyclicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A5DC5628EFF58F00C0A1BB /* ColorCyclicView.swift */; };
+		43B20A3929138D0F006EF8EE /* BucketListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B20A3829138D0F006EF8EE /* BucketListContentView.swift */; };
+		43B20A3B29139AAB006EF8EE /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B20A3A29139AAB006EF8EE /* Authentication.swift */; };
 		43F0DAC9290410BB00E048C0 /* Instafilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F0DAC8290410BB00E048C0 /* Instafilter.swift */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +101,8 @@
 		43A4E23228FE95830090C441 /* BookwormHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormHome.swift; sourceTree = "<group>"; };
 		43A5DC5428EFEE3000C0A1BB /* CreativeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBorder.swift; sourceTree = "<group>"; };
 		43A5DC5628EFF58F00C0A1BB /* ColorCyclicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclicView.swift; sourceTree = "<group>"; };
+		43B20A3829138D0F006EF8EE /* BucketListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListContentView.swift; sourceTree = "<group>"; };
+		43B20A3A29139AAB006EF8EE /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		43F0DAC8290410BB00E048C0 /* Instafilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instafilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +154,7 @@
 		43215C5A28E810FA001A7DE8 /* HundredDays */ = {
 			isa = PBXGroup;
 			children = (
+				43B20A3729138CEC006EF8EE /* BucketList */,
 				43F0DAC7290410A200E048C0 /* Instafilter */,
 				43A4E22628FE7EAB0090C441 /* Bookworm */,
 				4387293928FD4053001DB8C1 /* Cupcake */,
@@ -237,6 +242,15 @@
 				43A4E23228FE95830090C441 /* BookwormHome.swift */,
 			);
 			path = Bookworm;
+			sourceTree = "<group>";
+		};
+		43B20A3729138CEC006EF8EE /* BucketList */ = {
+			isa = PBXGroup;
+			children = (
+				43B20A3829138D0F006EF8EE /* BucketListContentView.swift */,
+				43B20A3A29139AAB006EF8EE /* Authentication.swift */,
+			);
+			path = BucketList;
 			sourceTree = "<group>";
 		};
 		43F0DAC7290410A200E048C0 /* Instafilter */ = {
@@ -386,6 +400,7 @@
 				43215C9128E81925001A7DE8 /* Mission.swift in Sources */,
 				438B762928EC2BEB00A83CA5 /* AstronautView.swift in Sources */,
 				431817AA2910FC980077D6BB /* ImagePicker.swift in Sources */,
+				43B20A3929138D0F006EF8EE /* BucketListContentView.swift in Sources */,
 				4387293D28FD40D0001DB8C1 /* Order.swift in Sources */,
 				4387293828FD2B0B001DB8C1 /* TuneApi.swift in Sources */,
 				43A4E22828FE7EC90090C441 /* Bookworm.swift in Sources */,
@@ -405,6 +420,7 @@
 				43A5DC5528EFEE3000C0A1BB /* CreativeBorder.swift in Sources */,
 				43399B4E28F14BE7006EB585 /* BlendingEffect.swift in Sources */,
 				43215C5E28E810FA001A7DE8 /* ContentView.swift in Sources */,
+				43B20A3B29139AAB006EF8EE /* Authentication.swift in Sources */,
 				43215C5C28E810FA001A7DE8 /* HundredDaysApp.swift in Sources */,
 				4387293F28FD47CE001DB8C1 /* AddressView.swift in Sources */,
 				43A4E23328FE95830090C441 /* BookwormHome.swift in Sources */,
@@ -571,6 +587,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HundredDays/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock this app with face id";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -600,6 +617,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HundredDays/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock this app with face id";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
