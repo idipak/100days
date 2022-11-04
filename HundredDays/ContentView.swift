@@ -36,7 +36,7 @@ struct ContentView: View {
                 }
                 
                 NavigationLink{
-                    Authentication()
+                    BucketListContentView()
                 } label: {
                     Text("Bucket List")
                 }
