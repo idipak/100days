@@ -24,6 +24,8 @@
 		43215C8F28E81671001A7DE8 /* MoonshotHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43215C8E28E81671001A7DE8 /* MoonshotHome.swift */; };
 		43215C9128E81925001A7DE8 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43215C9028E81925001A7DE8 /* Mission.swift */; };
 		43399B4E28F14BE7006EB585 /* BlendingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43399B4D28F14BE7006EB585 /* BlendingEffect.swift */; };
+		4355452D2916396E0046DC94 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355452C2916396E0046DC94 /* ContentView-ViewModel.swift */; };
+		4355452F29163F4E0046DC94 /* FileManager-DocumentDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355452E29163F4E0046DC94 /* FileManager-DocumentDirectory.swift */; };
 		4385775728EEA4ED00F52BD0 /* Pushpa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385775628EEA4ED00F52BD0 /* Pushpa.swift */; };
 		4387293828FD2B0B001DB8C1 /* TuneApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387293728FD2B0B001DB8C1 /* TuneApi.swift */; };
 		4387293B28FD408C001DB8C1 /* Cupcake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387293A28FD408C001DB8C1 /* Cupcake.swift */; };
@@ -89,6 +91,8 @@
 		43215C8E28E81671001A7DE8 /* MoonshotHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotHome.swift; sourceTree = "<group>"; };
 		43215C9028E81925001A7DE8 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		43399B4D28F14BE7006EB585 /* BlendingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendingEffect.swift; sourceTree = "<group>"; };
+		4355452C2916396E0046DC94 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		4355452E29163F4E0046DC94 /* FileManager-DocumentDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentDirectory.swift"; sourceTree = "<group>"; };
 		4385775628EEA4ED00F52BD0 /* Pushpa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushpa.swift; sourceTree = "<group>"; };
 		4387293728FD2B0B001DB8C1 /* TuneApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneApi.swift; sourceTree = "<group>"; };
 		4387293A28FD408C001DB8C1 /* Cupcake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cupcake.swift; sourceTree = "<group>"; };
@@ -264,6 +268,8 @@
 				438A6ABD2914D7D7008C06E8 /* Location.swift */,
 				438A6ABF2914E15B008C06E8 /* EditView.swift */,
 				438A6AC12914EB36008C06E8 /* Result.swift */,
+				4355452C2916396E0046DC94 /* ContentView-ViewModel.swift */,
+				4355452E29163F4E0046DC94 /* FileManager-DocumentDirectory.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -423,8 +429,10 @@
 				4387293828FD2B0B001DB8C1 /* TuneApi.swift in Sources */,
 				43A4E22828FE7EC90090C441 /* Bookworm.swift in Sources */,
 				43A4E22F28FE85470090C441 /* DataController.swift in Sources */,
+				4355452F29163F4E0046DC94 /* FileManager-DocumentDirectory.swift in Sources */,
 				438B762728EC1B3F00A83CA5 /* MissionView.swift in Sources */,
 				4387293B28FD408C001DB8C1 /* Cupcake.swift in Sources */,
+				4355452D2916396E0046DC94 /* ContentView-ViewModel.swift in Sources */,
 				43A4E22D28FE84BD0090C441 /* AddBookView.swift in Sources */,
 				43F0DAC9290410BB00E048C0 /* Instafilter.swift in Sources */,
 				438A6AC22914EB36008C06E8 /* Result.swift in Sources */,
