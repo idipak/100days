@@ -48,6 +48,10 @@
 		43A4E23328FE95830090C441 /* BookwormHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4E23228FE95830090C441 /* BookwormHome.swift */; };
 		43A5DC5528EFEE3000C0A1BB /* CreativeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A5DC5428EFEE3000C0A1BB /* CreativeBorder.swift */; };
 		43A5DC5728EFF58F00C0A1BB /* ColorCyclicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A5DC5628EFF58F00C0A1BB /* ColorCyclicView.swift */; };
+		43A7898C2918E8E300ECA5AE /* HotProspectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A7898B2918E8E200ECA5AE /* HotProspectsApp.swift */; };
+		43A789942918E97400ECA5AE /* HotProspectsContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A789932918E97400ECA5AE /* HotProspectsContent.swift */; };
+		43A789962918E9A800ECA5AE /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A789952918E9A800ECA5AE /* ProspectsView.swift */; };
+		43A7899A2918E9CF00ECA5AE /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A789992918E9CF00ECA5AE /* MeView.swift */; };
 		43B20A3929138D0F006EF8EE /* BucketListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B20A3829138D0F006EF8EE /* BucketListContentView.swift */; };
 		43B20A3B29139AAB006EF8EE /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B20A3A29139AAB006EF8EE /* Authentication.swift */; };
 		43F0DAC9290410BB00E048C0 /* Instafilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F0DAC8290410BB00E048C0 /* Instafilter.swift */; };
@@ -115,6 +119,10 @@
 		43A4E23228FE95830090C441 /* BookwormHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormHome.swift; sourceTree = "<group>"; };
 		43A5DC5428EFEE3000C0A1BB /* CreativeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBorder.swift; sourceTree = "<group>"; };
 		43A5DC5628EFF58F00C0A1BB /* ColorCyclicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclicView.swift; sourceTree = "<group>"; };
+		43A7898B2918E8E200ECA5AE /* HotProspectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotProspectsApp.swift; sourceTree = "<group>"; };
+		43A789932918E97400ECA5AE /* HotProspectsContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotProspectsContent.swift; sourceTree = "<group>"; };
+		43A789952918E9A800ECA5AE /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		43A789992918E9CF00ECA5AE /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		43B20A3829138D0F006EF8EE /* BucketListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListContentView.swift; sourceTree = "<group>"; };
 		43B20A3A29139AAB006EF8EE /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		43F0DAC8290410BB00E048C0 /* Instafilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instafilter.swift; sourceTree = "<group>"; };
@@ -169,6 +177,7 @@
 		43215C5A28E810FA001A7DE8 /* HundredDays */ = {
 			isa = PBXGroup;
 			children = (
+				43A7898A2918E8B700ECA5AE /* HotProspects */,
 				43B20A3729138CEC006EF8EE /* BucketList */,
 				43F0DAC7290410A200E048C0 /* Instafilter */,
 				43A4E22628FE7EAB0090C441 /* Bookworm */,
@@ -257,6 +266,17 @@
 				43A4E23228FE95830090C441 /* BookwormHome.swift */,
 			);
 			path = Bookworm;
+			sourceTree = "<group>";
+		};
+		43A7898A2918E8B700ECA5AE /* HotProspects */ = {
+			isa = PBXGroup;
+			children = (
+				43A7898B2918E8E200ECA5AE /* HotProspectsApp.swift */,
+				43A789932918E97400ECA5AE /* HotProspectsContent.swift */,
+				43A789952918E9A800ECA5AE /* ProspectsView.swift */,
+				43A789992918E9CF00ECA5AE /* MeView.swift */,
+			);
+			path = HotProspects;
 			sourceTree = "<group>";
 		};
 		43B20A3729138CEC006EF8EE /* BucketList */ = {
@@ -423,6 +443,7 @@
 				438B762928EC2BEB00A83CA5 /* AstronautView.swift in Sources */,
 				438A6AC02914E15B008C06E8 /* EditView.swift in Sources */,
 				438A6ABE2914D7D7008C06E8 /* Location.swift in Sources */,
+				43A7899A2918E9CF00ECA5AE /* MeView.swift in Sources */,
 				431817AA2910FC980077D6BB /* ImagePicker.swift in Sources */,
 				43B20A3929138D0F006EF8EE /* BucketListContentView.swift in Sources */,
 				4387293D28FD40D0001DB8C1 /* Order.swift in Sources */,
@@ -430,6 +451,7 @@
 				43A4E22828FE7EC90090C441 /* Bookworm.swift in Sources */,
 				43A4E22F28FE85470090C441 /* DataController.swift in Sources */,
 				4355452F29163F4E0046DC94 /* FileManager-DocumentDirectory.swift in Sources */,
+				43A789962918E9A800ECA5AE /* ProspectsView.swift in Sources */,
 				438B762728EC1B3F00A83CA5 /* MissionView.swift in Sources */,
 				4387293B28FD408C001DB8C1 /* Cupcake.swift in Sources */,
 				4355452D2916396E0046DC94 /* ContentView-ViewModel.swift in Sources */,
@@ -439,6 +461,8 @@
 				43215C8B28E813D6001A7DE8 /* Astronaut.swift in Sources */,
 				438D996528EAF3FA00BCEB32 /* Color-Theme.swift in Sources */,
 				431817AE291117000077D6BB /* ImageSaver.swift in Sources */,
+				43A789942918E97400ECA5AE /* HotProspectsContent.swift in Sources */,
+				43A7898C2918E8E300ECA5AE /* HotProspectsApp.swift in Sources */,
 				43A4E22B28FE80B00090C441 /* Bookworm.xcdatamodeld in Sources */,
 				438A6ABC2914D44A008C06E8 /* MapPractice.swift in Sources */,
 				4387294128FD4A71001DB8C1 /* CheckoutView.swift in Sources */,
