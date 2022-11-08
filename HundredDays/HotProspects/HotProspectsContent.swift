@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct HotProspectsContent: View {
+    @StateObject var prospects = Prospects()
+    
     var body: some View {
         TabView{
             ProspectsView(filter: .none)
@@ -31,11 +33,13 @@ struct HotProspectsContent: View {
                 }
             
         }
+        .environmentObject(prospects)
     }
 }
 
 struct HotProspectsContent_Previews: PreviewProvider {
     static var previews: some View {
         HotProspectsContent()
+            .environmentObject(Prospects())
     }
 }

@@ -40,6 +40,13 @@ struct ContentView: View {
                 } label: {
                     Text("Bucket List")
                 }
+                
+                NavigationLink {
+                    HotProspectsContent()
+                } label: {
+                    Text("Hot Prospects")
+                }
+
 
 
 

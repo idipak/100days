@@ -48,6 +48,8 @@
 		43A4E23328FE95830090C441 /* BookwormHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4E23228FE95830090C441 /* BookwormHome.swift */; };
 		43A5DC5528EFEE3000C0A1BB /* CreativeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A5DC5428EFEE3000C0A1BB /* CreativeBorder.swift */; };
 		43A5DC5728EFF58F00C0A1BB /* ColorCyclicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A5DC5628EFF58F00C0A1BB /* ColorCyclicView.swift */; };
+		43A636E4291A1B47007650B9 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A636E3291A1B47007650B9 /* Prospect.swift */; };
+		43A636E7291A2C10007650B9 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 43A636E6291A2C10007650B9 /* CodeScanner */; };
 		43A7898C2918E8E300ECA5AE /* HotProspectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A7898B2918E8E200ECA5AE /* HotProspectsApp.swift */; };
 		43A789942918E97400ECA5AE /* HotProspectsContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A789932918E97400ECA5AE /* HotProspectsContent.swift */; };
 		43A789962918E9A800ECA5AE /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A789952918E9A800ECA5AE /* ProspectsView.swift */; };
@@ -119,6 +121,7 @@
 		43A4E23228FE95830090C441 /* BookwormHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormHome.swift; sourceTree = "<group>"; };
 		43A5DC5428EFEE3000C0A1BB /* CreativeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBorder.swift; sourceTree = "<group>"; };
 		43A5DC5628EFF58F00C0A1BB /* ColorCyclicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclicView.swift; sourceTree = "<group>"; };
+		43A636E3291A1B47007650B9 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 		43A7898B2918E8E200ECA5AE /* HotProspectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotProspectsApp.swift; sourceTree = "<group>"; };
 		43A789932918E97400ECA5AE /* HotProspectsContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotProspectsContent.swift; sourceTree = "<group>"; };
 		43A789952918E9A800ECA5AE /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
@@ -133,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A636E7291A2C10007650B9 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				43A789932918E97400ECA5AE /* HotProspectsContent.swift */,
 				43A789952918E9A800ECA5AE /* ProspectsView.swift */,
 				43A789992918E9CF00ECA5AE /* MeView.swift */,
+				43A636E3291A1B47007650B9 /* Prospect.swift */,
 			);
 			path = HotProspects;
 			sourceTree = "<group>";
@@ -322,6 +327,9 @@
 			dependencies = (
 			);
 			name = HundredDays;
+			packageProductDependencies = (
+				43A636E6291A2C10007650B9 /* CodeScanner */,
+			);
 			productName = HundredDays;
 			productReference = 43215C5828E810FA001A7DE8 /* HundredDays.app */;
 			productType = "com.apple.product-type.application";
@@ -394,6 +402,9 @@
 				Base,
 			);
 			mainGroup = 43215C4F28E810FA001A7DE8;
+			packageReferences = (
+				43A636E5291A2C10007650B9 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 43215C5928E810FA001A7DE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -459,6 +470,7 @@
 				43F0DAC9290410BB00E048C0 /* Instafilter.swift in Sources */,
 				438A6AC22914EB36008C06E8 /* Result.swift in Sources */,
 				43215C8B28E813D6001A7DE8 /* Astronaut.swift in Sources */,
+				43A636E4291A1B47007650B9 /* Prospect.swift in Sources */,
 				438D996528EAF3FA00BCEB32 /* Color-Theme.swift in Sources */,
 				431817AE291117000077D6BB /* ImageSaver.swift in Sources */,
 				43A789942918E97400ECA5AE /* HotProspectsContent.swift in Sources */,
@@ -639,6 +651,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HundredDays/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan the QR code";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock this app with face id";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -669,6 +682,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HundredDays/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan the QR code";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock this app with face id";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your filtered photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -801,6 +815,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		43A636E5291A2C10007650B9 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		43A636E6291A2C10007650B9 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43A636E5291A2C10007650B9 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		43A4E22928FE80B00090C441 /* Bookworm.xcdatamodeld */ = {
