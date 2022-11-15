@@ -39,6 +39,11 @@
 		438A6AC42914FDB2008C06E8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 438A6AC32914FDB2008C06E8 /* README.md */; };
 		438B762728EC1B3F00A83CA5 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438B762628EC1B3F00A83CA5 /* MissionView.swift */; };
 		438B762928EC2BEB00A83CA5 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438B762828EC2BEB00A83CA5 /* AstronautView.swift */; };
+		438BFAC4292355A00033B711 /* SnowSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438BFAC3292355A00033B711 /* SnowSeeker.swift */; };
+		438BFAC6292355B20033B711 /* SnowSeekerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438BFAC5292355B20033B711 /* SnowSeekerContentView.swift */; };
+		438BFAC82923564B0033B711 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = 438BFAC72923564B0033B711 /* resorts.json */; };
+		438BFACA292357020033B711 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438BFAC9292357020033B711 /* Resort.swift */; };
+		438BFACC292358190033B711 /* Bundle+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438BFACB292358190033B711 /* Bundle+Decodable.swift */; };
 		438D7B3829123A4D001B38E9 /* InstaContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D7B3729123A4D001B38E9 /* InstaContentView.swift */; };
 		438D996528EAF3FA00BCEB32 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D996428EAF3FA00BCEB32 /* Color-Theme.swift */; };
 		43A17C1929220AD500945FF6 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A17C1829220AD500945FF6 /* Searching.swift */; };
@@ -114,6 +119,11 @@
 		438A6AC32914FDB2008C06E8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		438B762628EC1B3F00A83CA5 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		438B762828EC2BEB00A83CA5 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		438BFAC3292355A00033B711 /* SnowSeeker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeeker.swift; sourceTree = "<group>"; };
+		438BFAC5292355B20033B711 /* SnowSeekerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeekerContentView.swift; sourceTree = "<group>"; };
+		438BFAC72923564B0033B711 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
+		438BFAC9292357020033B711 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		438BFACB292358190033B711 /* Bundle+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decodable.swift"; sourceTree = "<group>"; };
 		438D7B3729123A4D001B38E9 /* InstaContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaContentView.swift; sourceTree = "<group>"; };
 		438D996428EAF3FA00BCEB32 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		43A17C1829220AD500945FF6 /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
@@ -185,6 +195,7 @@
 		43215C5A28E810FA001A7DE8 /* HundredDays */ = {
 			isa = PBXGroup;
 			children = (
+				438BFAC2292355880033B711 /* SnowSeeker */,
 				43A17C1729220ABB00945FF6 /* LastProject */,
 				43A7898A2918E8B700ECA5AE /* HotProspects */,
 				43B20A3729138CEC006EF8EE /* BucketList */,
@@ -264,6 +275,18 @@
 				4387294028FD4A71001DB8C1 /* CheckoutView.swift */,
 			);
 			path = Cupcake;
+			sourceTree = "<group>";
+		};
+		438BFAC2292355880033B711 /* SnowSeeker */ = {
+			isa = PBXGroup;
+			children = (
+				438BFAC72923564B0033B711 /* resorts.json */,
+				438BFAC3292355A00033B711 /* SnowSeeker.swift */,
+				438BFAC5292355B20033B711 /* SnowSeekerContentView.swift */,
+				438BFAC9292357020033B711 /* Resort.swift */,
+				438BFACB292358190033B711 /* Bundle+Decodable.swift */,
+			);
+			path = SnowSeeker;
 			sourceTree = "<group>";
 		};
 		43A17C1729220ABB00945FF6 /* LastProject */ = {
@@ -435,6 +458,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438BFAC82923564B0033B711 /* resorts.json in Resources */,
 				43215C6328E810FC001A7DE8 /* Preview Assets.xcassets in Resources */,
 				43215C8728E8139B001A7DE8 /* missions.json in Resources */,
 				438A6AC42914FDB2008C06E8 /* README.md in Resources */,
@@ -473,6 +497,8 @@
 				43B20A3929138D0F006EF8EE /* BucketListContentView.swift in Sources */,
 				4387293D28FD40D0001DB8C1 /* Order.swift in Sources */,
 				4387293828FD2B0B001DB8C1 /* TuneApi.swift in Sources */,
+				438BFAC4292355A00033B711 /* SnowSeeker.swift in Sources */,
+				438BFACA292357020033B711 /* Resort.swift in Sources */,
 				43A4E22828FE7EC90090C441 /* Bookworm.swift in Sources */,
 				43D994A3291F68C900C4411C /* GeometryDisplay.swift in Sources */,
 				43A4E22F28FE85470090C441 /* DataController.swift in Sources */,
@@ -486,6 +512,7 @@
 				438A6AC22914EB36008C06E8 /* Result.swift in Sources */,
 				43215C8B28E813D6001A7DE8 /* Astronaut.swift in Sources */,
 				43A636E4291A1B47007650B9 /* Prospect.swift in Sources */,
+				438BFACC292358190033B711 /* Bundle+Decodable.swift in Sources */,
 				438D996528EAF3FA00BCEB32 /* Color-Theme.swift in Sources */,
 				431817AE291117000077D6BB /* ImageSaver.swift in Sources */,
 				43A789942918E97400ECA5AE /* HotProspectsContent.swift in Sources */,
@@ -494,6 +521,7 @@
 				438A6ABC2914D44A008C06E8 /* MapPractice.swift in Sources */,
 				4387294128FD4A71001DB8C1 /* CheckoutView.swift in Sources */,
 				43A5DC5728EFF58F00C0A1BB /* ColorCyclicView.swift in Sources */,
+				438BFAC6292355B20033B711 /* SnowSeekerContentView.swift in Sources */,
 				431817AC2910FE040077D6BB /* InstaHome.swift in Sources */,
 				43215C8F28E81671001A7DE8 /* MoonshotHome.swift in Sources */,
 				43A5DC5528EFEE3000C0A1BB /* CreativeBorder.swift in Sources */,
