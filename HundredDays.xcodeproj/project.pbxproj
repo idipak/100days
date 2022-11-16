@@ -63,6 +63,10 @@
 		43B20A3929138D0F006EF8EE /* BucketListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B20A3829138D0F006EF8EE /* BucketListContentView.swift */; };
 		43B20A3B29139AAB006EF8EE /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B20A3A29139AAB006EF8EE /* Authentication.swift */; };
 		43D994A3291F68C900C4411C /* GeometryDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D994A2291F68C900C4411C /* GeometryDisplay.swift */; };
+		43DC725D2924B623003D7EBE /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DC725C2924B623003D7EBE /* WelcomeView.swift */; };
+		43DC725F2924B8E8003D7EBE /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DC725E2924B8E8003D7EBE /* ResortView.swift */; };
+		43DC72612924BACB003D7EBE /* SkiDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DC72602924BACB003D7EBE /* SkiDetailsView.swift */; };
+		43DC72632924BC28003D7EBE /* ResortDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DC72622924BC28003D7EBE /* ResortDetailView.swift */; };
 		43F0DAC9290410BB00E048C0 /* Instafilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F0DAC8290410BB00E048C0 /* Instafilter.swift */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +146,10 @@
 		43B20A3829138D0F006EF8EE /* BucketListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListContentView.swift; sourceTree = "<group>"; };
 		43B20A3A29139AAB006EF8EE /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		43D994A2291F68C900C4411C /* GeometryDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryDisplay.swift; sourceTree = "<group>"; };
+		43DC725C2924B623003D7EBE /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		43DC725E2924B8E8003D7EBE /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
+		43DC72602924BACB003D7EBE /* SkiDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetailsView.swift; sourceTree = "<group>"; };
+		43DC72622924BC28003D7EBE /* ResortDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailView.swift; sourceTree = "<group>"; };
 		43F0DAC8290410BB00E048C0 /* Instafilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instafilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -285,6 +293,10 @@
 				438BFAC5292355B20033B711 /* SnowSeekerContentView.swift */,
 				438BFAC9292357020033B711 /* Resort.swift */,
 				438BFACB292358190033B711 /* Bundle+Decodable.swift */,
+				43DC725C2924B623003D7EBE /* WelcomeView.swift */,
+				43DC725E2924B8E8003D7EBE /* ResortView.swift */,
+				43DC72602924BACB003D7EBE /* SkiDetailsView.swift */,
+				43DC72622924BC28003D7EBE /* ResortDetailView.swift */,
 			);
 			path = SnowSeeker;
 			sourceTree = "<group>";
@@ -489,6 +501,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43215C9128E81925001A7DE8 /* Mission.swift in Sources */,
+				43DC72612924BACB003D7EBE /* SkiDetailsView.swift in Sources */,
 				438B762928EC2BEB00A83CA5 /* AstronautView.swift in Sources */,
 				438A6AC02914E15B008C06E8 /* EditView.swift in Sources */,
 				438A6ABE2914D7D7008C06E8 /* Location.swift in Sources */,
@@ -500,6 +513,7 @@
 				438BFAC4292355A00033B711 /* SnowSeeker.swift in Sources */,
 				438BFACA292357020033B711 /* Resort.swift in Sources */,
 				43A4E22828FE7EC90090C441 /* Bookworm.swift in Sources */,
+				43DC72632924BC28003D7EBE /* ResortDetailView.swift in Sources */,
 				43D994A3291F68C900C4411C /* GeometryDisplay.swift in Sources */,
 				43A4E22F28FE85470090C441 /* DataController.swift in Sources */,
 				4355452F29163F4E0046DC94 /* FileManager-DocumentDirectory.swift in Sources */,
@@ -507,10 +521,12 @@
 				438B762728EC1B3F00A83CA5 /* MissionView.swift in Sources */,
 				4387293B28FD408C001DB8C1 /* Cupcake.swift in Sources */,
 				4355452D2916396E0046DC94 /* ContentView-ViewModel.swift in Sources */,
+				43DC725D2924B623003D7EBE /* WelcomeView.swift in Sources */,
 				43A4E22D28FE84BD0090C441 /* AddBookView.swift in Sources */,
 				43F0DAC9290410BB00E048C0 /* Instafilter.swift in Sources */,
 				438A6AC22914EB36008C06E8 /* Result.swift in Sources */,
 				43215C8B28E813D6001A7DE8 /* Astronaut.swift in Sources */,
+				43DC725F2924B8E8003D7EBE /* ResortView.swift in Sources */,
 				43A636E4291A1B47007650B9 /* Prospect.swift in Sources */,
 				438BFACC292358190033B711 /* Bundle+Decodable.swift in Sources */,
 				438D996528EAF3FA00BCEB32 /* Color-Theme.swift in Sources */,

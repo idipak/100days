@@ -7,6 +7,16 @@
 
 import SwiftUI
 
+extension View{
+    @ViewBuilder func phoneOnlyNavigation() -> some View{
+        if UIDevice.current.userInterfaceIdiom == .phone{
+            self.navigationViewStyle(.stack)
+        }else {
+            self
+        }
+    }
+}
+
 struct SnowSeekerContentView: View {
     let resorts: [Resort] = Bundle.main.decode("resorts.json")
     
@@ -14,7 +24,7 @@ struct SnowSeekerContentView: View {
         NavigationView {
             List(resorts) { resort in
                 NavigationLink {
-                    Text(resort.name)
+                    ResortView(resort: resort)
                 } label: {
                     Image(resort.country)
                         .resizable()
@@ -36,6 +46,8 @@ struct SnowSeekerContentView: View {
 
             }
             .navigationTitle("Resorts")
+            
+            WelcomeView()
         }
     }
 }
